@@ -1,0 +1,7 @@
+{"config": {"cooldown_ms": 1000, "max_gap": 10000, "budget_per_tick": 10, "confirm_ms": 500},
+ "steps": [
+   {"op": "enqueue", "player": "a", "rating": 1000, "at": 0},
+   {"op": "enqueue", "player": "b", "rating": 1000, "at": 0},
+   {"op": "fill", "at": 0},
+   {"op": "undo", "index": 0, "at": 100}
+ ]}
